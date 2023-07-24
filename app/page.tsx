@@ -107,6 +107,7 @@ const toTS = (input: string) => {
             }
             case "int":
             case "bigint":
+            case "double":
             case "bigdecimal": {
               type = "number,";
               break;
